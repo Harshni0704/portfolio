@@ -1,12 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Harshni Portfolio</title>
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harshni | Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css" />
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #fce4ec, #f8bbd0);
+      color: #333;
+      text-align: center;
+    }
+
+    header {
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      color: #c2185b;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #555;
+    }
+
+    .nav-links {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: white;
+      background-color: #c2185b;
+      padding: 12px 25px;
+      border-radius: 25px;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    .nav-links a:hover {
+      background-color: #ad1457;
+      transform: scale(1.05);
+    }
+
+    footer {
+      margin-top: 60px;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
     <h1>Welcome to My Portfolio 🌸</h1>
-    <p><a href="profile.html">Go to my main portfolio page</a></p>
-  </body>
+    <p>Hi, I'm <strong>Harshni</strong> — a passionate web developer and designer.</p>
+  </header>
+
+  <div class="nav-links">
+    <a href="profile.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="skills.html">Skills</a>
+    <a href="project.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <footer>
+    © 2025 Harshni A | Built with 💕 and HTML
+  </footer>
+</body>
 </html>
